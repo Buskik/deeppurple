@@ -59,7 +59,7 @@ nav {
     list-style: none;
 }
 .nav-link{
-    color: #7d3480;
+    color: #962990;
     font-size: 18px;
     text-decoration: none;
 }
@@ -68,6 +68,11 @@ nav {
     flex: 1;
     justify-content: flex-end;
     cursor: pointer;
+}
+
+.cart:hover {
+    filter: invert(100%);
+
 }
 
 .presentation {
@@ -100,25 +105,27 @@ nav {
 
 .cta-add{
     
+    border: 2px solid #c52abd;
+    background: transparent;
+    color: #c52abd;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cta-add:hover{
+    
     background:  #c52abd;
     width: 150px;
     height: 50px;
     cursor: pointer;
     color: #e0d5d5;
     border: none;
-    font-size: 20px;
     font-weight: 600;
 }
 
-.cta-add:hover{
-    
-    border: 2px solid #c52abd;
-    background: transparent;
-    color: #c52abd;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-}
+
 
 .cover {
     flex: 1;
@@ -165,11 +172,11 @@ nav {
 
 }
 
-.laptop-select img{
+.carrousel img{
     cursor: pointer;
 }
 .filter {
-   filter: brightness(0) saturate(100%) invert(25%) sepia(27%) saturate(1610%) hue-rotate(252deg) brightness(91%) contrast(91%);
+    filter: invert(50%) sepia(76%) saturate(7483%) hue-rotate(286deg) brightness(86%) contrast(94%);
 }
 
 
