@@ -35,7 +35,11 @@ button {
     display: flex;
 }
 
-
+.logo-container:hover, 
+.nav-link:hover, 
+.cart:hover{
+    filter: invert(50%) sepia(76%) saturate(7483%) hue-rotate(286deg) brightness(86%) contrast(94%);
+}
 
 .logo-container {
     flex: 1;
@@ -70,10 +74,6 @@ nav {
     cursor: pointer;
 }
 
-.cart:hover {
-    filter: invert(100%);
-
-}
 
 .presentation {
     display: flex;
